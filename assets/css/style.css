@@ -21,7 +21,6 @@ img {
 
 body {
     font-family: 'Red Hat Display', sans-serif;
-    background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
 }
 
 a {
@@ -29,7 +28,19 @@ a {
     display: block;
 }
 
-.container {
-    width: 1140px;
-    margin: 0 auto;
+.intro-title, .intro-side {
+    width: 50%;
+}
+
+.intro-title {
+    font-size: 65px;
+    line-height: 86px;
+}
+
+.intro-title span {
+    color: #06C3A6;
+}
+
+.conference-info, .conference-img {
+    width: 50%; 
 }
