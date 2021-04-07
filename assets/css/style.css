@@ -41,6 +41,26 @@ a {
     color: #06C3A6;
 }
 
+.conference {
+    margin: 95px 0;
+}
+
 .conference-info, .conference-img {
     width: 50%; 
+}
+
+.conference .container {
+    padding: 70px;
+    background-image: url("../img/blue_back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.conference-title {
+    color: #fff;
+}
+
+.conference-text {
+    color: #000;
 }
